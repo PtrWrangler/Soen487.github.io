@@ -1,0 +1,24 @@
+{
+  "name": "soen487",
+  "version": "1.0.0",
+  "description": "marshup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbergus/SOEN487.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbergus/SOEN487/issues"
+  },
+  "homepage": "https://github.com/zbergus/SOEN487#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3",
+    "request": "^2.81.0"
+  }
+}

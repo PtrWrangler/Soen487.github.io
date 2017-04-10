@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOEN 487 - Mashup Project - By ZB, MR, AK, QD, RP & AA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      #map {
+        height: 95%;
+        width: 100%;
+          margin-top: -20px;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">SOEN 487 - Mashup Project - By ZB, MR, AK, QD, RP & AA</a>
+          </div>
+            <div class="checkbox navbar-btn pull-right">
+                <label class="navbar-link" for="filterWeather">
+                    <input type="checkbox" id="filterWeather" value="false">Weather
+                </label>
+                <label class="navbar-link" for="filterIss">
+                    <input type="checkbox" id="filterIss" value="false">ISS
+                </label>
+                <label class="navbar-link" for="filterMeetup">
+                    <input type="checkbox" id="filterMeetup" value="false">Meetup
+                </label>
+                <label class="navbar-link" for="filterSports">
+                    <input type="checkbox" id="filterSports" value="false">Sports
+                </label>
+            </div>
+        </div>
+      </nav>
+      <div class="container" id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpi1AEgLwu1nbzHTgsxEyzOGrMbsRF89g&callback=initMap">
+    </script>
+  </body>
+</html>
